@@ -13,11 +13,11 @@ spring:
         - CountRequestsFilter
         - LogFilter
       routes:
-        - id: animal-service
-          uri: lb://animal-service
+        - id: movie-service
+          uri: lb://movie-service
           predicates:
-            - Path=/animals/**
-        - id: specie-service
-          uri: lb://specie-service
+            - Path=/movies/**
+        - id: catalog-service
+          uri: lb://catalog-servicee
           predicates:
-            - Path=/species/**
+            - Path=/catalog/**
