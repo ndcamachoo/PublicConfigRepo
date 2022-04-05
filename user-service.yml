@@ -16,5 +16,6 @@ spring:
     url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:backend_specialization}
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: false
     hibernate:
       ddl-auto: create-drop
