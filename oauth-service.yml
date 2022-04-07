@@ -13,4 +13,4 @@ config:
         id: backend-specialization
         secret: backend-dh
       jwt:
-        key: secret-code
+        key: it-s-dangerous-to-go-alone-take-this
