@@ -5,3 +5,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+
+config:
+  security:
+    oauth:
+      client:
+        id: backend-specialization
+        secret: backend-dh
+      jwt:
+        key: secret-code
