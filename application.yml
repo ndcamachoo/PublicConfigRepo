@@ -14,3 +14,11 @@ management:
 info:
   env:
     enabled: true
+
+queue:
+  movie:
+    name: movie-queue
+  serie:
+    name: serie-queue
+  catalog:
+    name: catalog-queue
