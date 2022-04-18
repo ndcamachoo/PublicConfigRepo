@@ -22,3 +22,10 @@ queue:
     name: serie-queue
   catalog:
     name: catalog-queue
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
