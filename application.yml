@@ -25,11 +25,11 @@ queue:
 
 spring:
   rabbitmq:
-    host: localhost
+    host: ${RABBITMQ_HOST:localhost}
     port: 5672
     username: guest
     password: guest
   zipkin:
-    base-url: http://localhost:9411/
+    base-url: http://${TRACER-SERVER:localhost}:9411/
     sender:
       type: rabbit
