@@ -11,8 +11,6 @@ management:
       show-details: always
     shutdown:
       enabled: true
-  server:
-    port: 8080
 info:
   env:
     enabled: true
